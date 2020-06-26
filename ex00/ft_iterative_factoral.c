@@ -6,7 +6,7 @@
 /*   By: msibiya <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 12:50:50 by msibiya           #+#    #+#             */
-/*   Updated: 2020/06/24 08:04:16 by msibiya          ###   ########.fr       */
+/*   Updated: 2020/06/25 12:36:42 by msibiya          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,10 @@ int ft_iterative_factorial(int nb)
 
 
 }
-
-// int main()
-//{
-//	int b;
-//	b=ft_iterative_factorial(5);
-//	printf("factor of 5 is: %d", b);
-//	return 0;
-//}
+ int main()
+{
+int b;
+	b=ft_iterative_factorial(5);
+	printf("factor of 5 is: %d", b);
+	return 0;
+}
